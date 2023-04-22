@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.heding {
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.heding .h1 {
+    width: 100%;
+    /* height: ; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heding .h1 h1 {
+    color: white;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+}
+
+.heding .h1 h1 span {
+    color: rgb(255, 179, 0);
+}
+
+.heding .span {
+    /* border: 1px solid red;    */
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heding .span span {
+    color: rgb(39, 39, 39);
+    font-size: 11rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    z-index: -1;
+}
+
+/* ==================================================================== */
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main-hed {
+    width: 370px;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 28);
+}
+
+.product .main-hed .itemBox {
+    /* border: 1px solid red; */
+    color: white;
+    background-color: rgb(31, 31, 31);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+}
+
+.product .main-hed .itemBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .2s;
+}
+
+.product .main-hed .itemBox img:hover {
+    transform: scale(1.3);
+}
+
+.product .main-hed .text h3 {
+    border-top: 6px solid rgb(255, 179, 0);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    padding: 15px 25px 15px 25px;
+    font-size: 2rem;
+    transition: .3s ease-in-out;
+    line-height: 25px;
+}
+
+.product .main-hed .text h3:hover {
+    color: rgb(255, 179, 0);
+}
+
+.product .main-hed .text p {
+    color: rgb(188, 188, 188);
+    font-family: 'poppins', sans-serif;
+    font-weight: 5p00;
+    padding: 0px 25px 25px 25px;
+    line-height: 23px;
+    font-size: 1.5rem;
+}
+
+/* ====================================================== */
+.hover-button {
+    position: absolute;
+    left: 94%;
+    bottom: 25.6%;
+}
+
+.hover-button li {
+    list-style-type: none;
+    padding: 9px;
+
+}
+
+.hover-button li a {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(43, 43, 43);
+    /* border: 2px solid rgb(255, 179, 0); */
+    text-decoration: none;
+    transition: all 0.50s ease 0s;
+}
+
+.hover-button ul li a span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    bottom: 0;
+    right: 10px;
+    top: 2px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    transition: all 0.50s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+
+.hover-button a:hover span {
+    width: auto;
+    padding: 0 25px;
+    margin-right: 8px;
+    padding-right: 50px;
+    margin-right: 0px;
+}
+
+.hover-button a:hover {
+    text-decoration: none;
+    background-color: rgb(255, 179, 0);
+}
+
+.hover-button a span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 30px;
+    color: white;
+    z-index: -1;
+}
+
+.hover-button .fa-solid {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40%;
+}
+
+.hover-button .fa-regular {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35%;
+}

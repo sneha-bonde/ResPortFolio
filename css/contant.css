@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(37, 35, 35, 1); */
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.heding {
+    color: white;
+    width: 50%;
+    height: 20%;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+}
+
+.heding h1 {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    position: relative;
+    bottom: 5px;
+}
+
+.heding h1 span {
+    color: rgb(255, 179, 0);
+    padding-left: 10px;
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heding .cont-touch {
+    position: relative;
+    bottom: 16.5rem;
+    font-size: 10.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    color: rgb(41, 36, 36);
+    letter-spacing: 10px;
+    /* border: 2px solid red; */
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============================================== */
+.contact-main {
+    width: 76%;
+    height: 56%;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-touch {
+    width: 36%;
+    height: 100%;
+    /* border: 1px solid red; */
+    color: white;
+}
+
+.left-touch h3 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.left-touch p {
+    font-size: 1.5rem;
+    padding-top: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.col-2 {
+    width: 100%;
+    height: 60%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.col-2 .address-1 {
+    width: 100%;
+    height: 29%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    margin-top: 25px;
+}
+
+.col-2 .address-1 h2 .fa-solid {
+    font-size: 3rem;
+    color: rgb(255, 179, 0);
+}
+
+.col-2 .address-1 .title-value-1 {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    margin-left: 16px;
+    line-height: 25px;
+}
+
+.col-2 .address-1 .title-value-1 .title {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(197, 196, 196);
+}
+
+.col-2 .address-1 .title-value-1 .value {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* ========= */
+.col-2 .address-2 {
+    width: 100%;
+    height: 29%;
+    /* border: 1px solid yellow; */
+    display: flex;
+}
+
+.col-2 .address-2 h2 .fa-solid {
+    font-size: 3.2rem;
+    color: rgb(255, 179, 0);
+    /* background-color:rgb(255, 179, 0) ; */
+    padding-top: 31px;
+}
+
+.col-2 .address-2 .title-value-2 {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    margin-left: 16px;
+    padding-top: 24px;
+    line-height: 25px;
+}
+
+.col-2 .address-2 .title-value-2 .title {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(197, 196, 196);
+}
+
+.col-2 .address-2 .title-value-2 .value {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* ========= */
+.col-2 .address-3 {
+    width: 100%;
+    height: 29%;
+    /* border: 1px solid yellow; */
+    display: flex;
+}
+
+.col-2 .address-3 h2 .fa-solid {
+    font-size: 2.23rem;
+    border-radius: 5px;
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(255, 179, 0);
+    background-color: rgb(255, 179, 0);
+    margin-top: 31px;
+    padding: 5px;
+}
+
+.col-2 .address-3 .title-value-3 {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    margin-left: 16px;
+    padding-top: 24px;
+    line-height: 25px;
+}
+
+.col-2 .address-3 .title-value-3 .title {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(197, 196, 196);
+}
+
+.col-2 .address-3 .title-value-3 .value {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* ======================= */
+.left-touch .icon-main {
+    width: 100%;
+    height: 13%;
+    /* border: 1px solid blue; */
+}
+
+.left-touch .icon-main ul {
+    text-decoration: none;
+    width: 45.5%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-touch .icon-main ul li {
+    list-style-type: none;
+    margin-top: 14px;
+}
+
+.left-touch .icon-main ul li a {
+    text-decoration: none;
+}
+
+.left-touch .icon-main ul li a .fa-brands {
+    padding: 13px;
+    background-color: rgb(39, 39, 39);
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 50%;
+}
+
+/* =========================================== */
+.right-touch {
+    width: 64%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.right-touch form {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid skyblue; */
+}
+
+.right-touch .input-name-email {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-touch .input-name-email input {
+    width: 48%;
+    height: 69%;
+    border-radius: 30px;
+    padding-left: 22px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border-style: none;
+}
+
+.right-touch .input-name-email input[type="text"] {
+    box-sizing: border-box;
+    outline: none;
+    transition: .1s ease-in-out;
+}
+
+.right-touch .input-name-email input[type="text"]:focus {
+    border: 1px solid rgb(255, 179, 0);
+}
+
+.right-touch .input-name-email input[type="email"] {
+    box-sizing: border-box;
+    outline: none;
+    transition: .1s ease-in-out;
+}
+
+.right-touch .input-name-email input[type="email"]:focus {
+    border: 1px solid rgb(255, 179, 0);
+}
+
+/* ============ */
+.right-touch .sub-text {
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid rgb(245, 246, 245); */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-touch .sub-text input {
+    width: 100%;
+    height: 15.5%;
+    border-radius: 30px;
+    padding-left: 22px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border-style: none;
+}
+
+.right-touch .sub-text input[type="text"] {
+    box-sizing: border-box;
+    outline: none;
+    transition: .1s ease-in-out;
+    margin-top: 18px;
+}
+
+.right-touch .sub-text input[type="text"]:focus {
+    border: 1px solid rgb(255, 179, 0);
+}
+
+.right-touch .sub-text textarea {
+    background-color: rgb(39, 39, 39);
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 15px 25px;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: .1s ease-in-out;
+}
+
+.right-touch .sub-text textarea:focus {
+    border: 1px solid rgb(255, 179, 0);
+}
+
+/* ==========================button=============================== */
+button {
+    position: relative;
+    border: 0;
+    top: .9rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 23.5rem;
+    height: 5.5rem;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid rgb(255, 179, 0);
+    border-radius: 30px;
+    font-weight: 800;
+    color: wheat;
+    letter-spacing: 1px;
+}
+
+.text {
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 1.5rem;
+    color: white;
+    line-height: 3.5rem;
+    text-indent: 20px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    background: rgb(255, 179, 0);
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    bottom: 0.7rem;
+    margin: auto;
+    background: #fff;
+}
+
+.arrow {
+    left: 2rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-solid {
+    position: relative;
+    bottom: .6rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .arrow {
+    /* background: #fff; */
+    transform: translate(1rem);
+}
+
+button:hover .text {
+    color: #fff;
+}
+
+/* /=======================A tag=============================================== */
+/* =================       side bar mmm================== */
+.hover-button {
+    position: absolute;
+    left: 94%;
+    bottom: 25.6%;
+}
+
+.hover-button li {
+    list-style-type: none;
+    padding: 9px;
+
+}
+
+.hover-button li a {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(43, 43, 43);
+    /* border: 2px solid rgb(255, 179, 0); */
+    text-decoration: none;
+    transition: all 0.50s ease 0s;
+}
+
+.hover-button ul li a span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    bottom: 0;
+    right: 10px;
+    top: 2px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    transition: all 0.50s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+
+.hover-button a:hover span {
+    width: auto;
+    padding: 0 25px;
+    margin-right: 8px;
+    padding-right: 50px;
+    margin-right: 0px;
+}
+
+.hover-button a:hover {
+    text-decoration: none;
+    background-color: rgb(255, 179, 0);
+}
+
+.hover-button a span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 30px;
+    color: white;
+    z-index: -1;
+}
+
+.hover-button .fa-solid {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45%;
+}
+
+.hover-button .fa-regular {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35%;
+}

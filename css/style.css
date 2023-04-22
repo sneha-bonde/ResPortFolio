@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(71deg, rgba(254, 200, 0, 1) 0%, rgba(250, 156, 4, 1) 25%, rgba(37, 35, 35, 1) 25%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+}
+
+.container .left-img {
+    width: 50rem;
+    height: 88%;
+    /* border: 2px solid red; */
+    margin: 4%;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 5px;
+    overflow: hidden;
+}
+
+.container .left-img img {
+    width: 1200px;
+    position: relative;
+    right: 27rem;
+    top: 5rem;
+}
+
+/* ==================================================================== */
+.right-text {
+    width: 45%;
+    height: 88%;
+    /* border: 2px solid red; */
+    padding-top: 20rem;
+    position: relative;
+    top: 3.5rem;
+    left: 13rem;
+}
+
+.right-text .h1-tag {
+    display: flex;
+}
+
+.right-text .h1-tag h2 {
+    background-color: rgb(255, 196, 0);
+    width: 45px;
+    height: 2px;
+    border: 3px solid rgb(255, 196, 0);
+    border-radius: 10px;
+    margin: 30px 30px 0px 0px;
+}
+
+.right-text .h1-tag h1 span {
+    color: rgb(255, 179, 0);
+}
+
+.right-text .h1-tag h1 {
+    font-size: 5.1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    line-height: 6rem;
+    margin-bottom: 25px;
+}
+
+.right-text p {
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 8px 0px; */
+    line-height: 3.5rem;
+}
+
+/* =====================================button=============================== */
+button {
+    position: relative;
+    border: 0;
+    top: 3.5rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 23.5rem;
+    height: 5.5rem;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid rgb(255, 179, 0);
+    border-radius: 30px;
+    font-weight: 800;
+    color: wheat;
+}
+
+.text {
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 1.5rem;
+    color: white;
+    line-height: 3.5rem;
+    text-indent: 20px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    background: rgb(255, 179, 0);
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    bottom: 0.7rem;
+    margin: auto;
+    background: #fff;
+}
+
+.arrow {
+    left: 2rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-solid {
+    position: relative;
+    bottom: .6rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .arrow {
+    /* background: #fff; */
+    transform: translate(1rem);
+}
+
+button:hover .text {
+    color: #fff;
+}
+
+/* =================       side bar mmm================== */
+.hover-button {
+    position: absolute;
+    left: 94%;
+    bottom: 25.6%;
+}
+
+.hover-button li {
+    list-style-type: none;
+    padding: 9px;
+}
+
+.hover-button li a {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(43, 43, 43);
+    /* border: 2px solid rgb(255, 179, 0); */
+    text-decoration: none;
+    transition: all 0.50s ease 0s;
+}
+
+.hover-button ul li a span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    bottom: 0;
+    right: 10px;
+    top: 2px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    transition: all 0.50s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+
+.hover-button a:hover span {
+    width: auto;
+    padding: 0 25px;
+    margin-right: 8px;
+    padding-right: 50px;
+    margin-right: 0px;
+}
+
+.hover-button a:hover {
+    text-decoration: none;
+    background-color: rgb(255, 179, 0);
+}
+
+.hover-button a span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 30px;
+    color: white;
+    z-index: -1;
+}
+
+.hover-button .fa-solid {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45%;
+}
+
+.hover-button .fa-regular {
+    /* border: 2px solid rgb(255, 179, 0); */
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35%;
+}
